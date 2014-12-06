@@ -33,3 +33,43 @@ CATransition *ca = [CATransition animation];
 ca.type = @"pageCurl";//翻页
 ca.duration = 1;
 [self.view.layer addAnimation:ca forKey:nil];
+
+文件操作
+复制：Command + C   
+粘贴：Command + V
+回退：Command + Z
+保存：Command + S
+
+窗口操作
+关闭窗口：Command + W
+退出程序：Command + Q
+管理多个桌面：Ctrl + ↑
+切换程序窗口：Command（长按） + tab
+切换输入法：Command（长按） + 空格
+
+Mac系统采用的是UNIX文件系统，所有的文件都放在根目录/下面，因此没有Windows中分C盘、D盘的概念，文件路径就不再有盘符
+Windows中  c:/users/mj/desktop
+Mac中      /users/mj/desktop
+
+常见文件夹
+用户的个人文件夹（apple是用户名）：/Users/apple
+桌面：/Users/apple/Desktop
+文稿：/Users/apple/Documents
+下载：/Users/apple/Downloads
+应用程序：/Users/apple/Applications
+
+
+常见Unix指令
+因为Mac系统是基于UNIX系统的，因此可以在“终端”中输入一些UNIX指令来操作Mac系统。比如：新建文件\文件夹、打开文件\文件夹
+
+常用的UNIX指令：(需要经常使用才不容易忘记)
+ls –l	列出当前目录下的所有内容（文件\文件夹）
+pwd		显示出当前目录的名称
+cd		改变当前操作的目录
+who		显示当前用户名
+clear		清屏
+mkdir		新建一个目录
+touch		新建一个文件（文件不存在才会新建）
+open		打开一个文件\文件夹
+按一下tab键，可以自动补齐指令名称、文件名、文件夹名等
+（上述指令均可以在百度上搜索到具体用法）
